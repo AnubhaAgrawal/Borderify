@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Borderify",
+	"version": "1.0",
+	"description":"gfjkhljkfhb",
+
+	"content_scripts" : [
+		{
+			"matches" : ["<all_urls>"], // on which website you want to run it
+			"js" : ["borderify.js"]
+		}
+	] 
+
+
+	}
